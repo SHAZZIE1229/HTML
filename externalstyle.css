@@ -1,0 +1,106 @@
+/* Background image and background color for the page */
+body {
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f8ff; /* Light blue background color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the top-right link */
+.top-right-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f00cbe;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.top-right-link:hover {
+    background-color: #6200ea;
+    color: rgb(16, 245, 73);
+}
+
+/* Image center styling */
+.image-center {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+}
+
+/* Styling for figure and figcaption */
+figure {
+    text-align: center;
+    margin: 30px auto;
+    border: 2px solid #070707; /* Light border around the figure */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+}
+
+/* Progress bar container styling */
+.progress-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Paragraph styling */
+p {
+    background-color: #f9f9f9; /* Light gray background for paragraphs */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    margin: 15px 0;
+    border: 2px solid #ddd; /* Border around paragraphs */
+    color: #333;
+    font-size: 16px;
+}
+
+/* Header styling */
+h1, h2 {
+    border: 2px solid #6200ea; /* Purple border for headings */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners for headings */
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header specific styling */
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+/* Spacing between sections */
+header, footer, main {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #6200ea;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
